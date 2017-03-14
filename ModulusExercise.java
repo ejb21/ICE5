@@ -19,9 +19,9 @@ public final class ModulusExercise
 	private static int modPow(int a, int b, int p) throws ArithmeticException
 	{
 		// HINT: Consider adding something here!
-		while ( a < 0 )
+		while ( a < 0 )// remove this loop... it is not needed!
 		{
-			while ( a < 0 )
+			while ( a < 0 ) // keep this one!
 			{
 				a += b ;
 			}
